@@ -1,0 +1,324 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local GUI = Instance.new("ScreenGui")
+local ScriptHub = Instance.new("Frame")
+local Page1 = Instance.new("TextButton")
+local Page1Frame = Instance.new("Frame")
+local AchromaticV1 = Instance.new("TextButton")
+local AchromaticV2 = Instance.new("TextButton")
+local ShibaHub = Instance.new("TextButton")
+local ChillScript = Instance.new("TextButton")
+local CrybabyV1 = Instance.new("TextButton")
+local NetBypass = Instance.new("TextButton")
+local Page1Label = Instance.new("TextLabel")
+local Page2 = Instance.new("TextButton")
+local Page2Frame = Instance.new("Frame")
+local Page2TextLabel = Instance.new("TextLabel")
+local NOTRELEASED = Instance.new("TextButton")
+local DomainHub = Instance.new("TextButton")
+local BlockGun = Instance.new("TextButton")
+local HeadStand = Instance.new("TextButton")
+local Invis = Instance.new("TextButton")
+local NOTRELEASED_2 = Instance.new("TextButton")
+local OpenCloseButton = Instance.new("TextButton")
+
+--Properties:
+
+GUI.Name = "GUI"
+GUI.Parent = game.CoreGui
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = GUI
+ScriptHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScriptHub.BackgroundTransparency = 0.200
+ScriptHub.BorderColor3 = Color3.fromRGB(255, 0, 0)
+ScriptHub.BorderSizePixel = 4
+ScriptHub.Position = UDim2.new(-0.472727269, 0, -0.0674342141, 0)
+ScriptHub.Size = UDim2.new(0, 450, 0, 442)
+ScriptHub.Active = true
+ScriptHub.Draggable = true
+
+Page1.Name = "Page 1"
+Page1.Parent = ScriptHub
+Page1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Page1.Position = UDim2.new(0.0642587617, 0, 0.872087896, 0)
+Page1.Size = UDim2.new(0, 184, 0, 56)
+Page1.Font = Enum.Font.Ubuntu
+Page1.Text = "Page 1"
+Page1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1.TextSize = 30.000
+Page1.MouseButton1Down:connect(function()
+	Page1Frame.Visible = true
+	Page1Label.Visible = true
+	Page2Frame.Visible = false
+end)
+
+Page1Frame.Name = "Page1Frame"
+Page1Frame.Parent = Page1
+Page1Frame.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Page1Frame.BackgroundTransparency = 0.200
+Page1Frame.Position = UDim2.new(-0.157154575, 0, -4.89285707, 0)
+Page1Frame.Size = UDim2.new(0, 450, 0, 174)
+
+AchromaticV1.Name = "Achromatic V1"
+AchromaticV1.Parent = Page1Frame
+AchromaticV1.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+AchromaticV1.BackgroundTransparency = 0.200
+AchromaticV1.Position = UDim2.new(0.0444444455, 0, 0.0344827585, 0)
+AchromaticV1.Size = UDim2.new(0, 200, 0, 50)
+AchromaticV1.Font = Enum.Font.PatrickHand
+AchromaticV1.Text = "Achromatic V1"
+AchromaticV1.TextColor3 = Color3.fromRGB(0, 0, 0)
+AchromaticV1.TextSize = 25.000
+AchromaticV1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ruofhweoufuwoefh/AchromaticV1/main/AchromaticV1"))
+end)
+
+AchromaticV2.Name = "Achromatic V2"
+AchromaticV2.Parent = Page1Frame
+AchromaticV2.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+AchromaticV2.BackgroundTransparency = 0.200
+AchromaticV2.Position = UDim2.new(0.524444461, 0, 0.0344827585, 0)
+AchromaticV2.Size = UDim2.new(0, 200, 0, 50)
+AchromaticV2.Font = Enum.Font.PatrickHand
+AchromaticV2.Text = "Achromatic V2"
+AchromaticV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AchromaticV2.TextSize = 25.000
+AchromaticV2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/ruofhweoufuwoefh/AchromaticV2/main/Achromatic%20V2"), true))()
+end)
+
+ShibaHub.Name = "Shiba Hub"
+ShibaHub.Parent = Page1Frame
+ShibaHub.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+ShibaHub.BackgroundTransparency = 0.200
+ShibaHub.Position = UDim2.new(0.0444444418, 0, 0.356321871, 0)
+ShibaHub.Size = UDim2.new(0, 200, 0, 50)
+ShibaHub.Font = Enum.Font.PatrickHand
+ShibaHub.Text = "Shiba Hub"
+ShibaHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShibaHub.TextSize = 25.000
+ShibaHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/rawget69420/Shiba/main/main.lua"))()
+end)
+
+ChillScript.Name = "Chill Script"
+ChillScript.Parent = Page1Frame
+ChillScript.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+ChillScript.BackgroundTransparency = 0.200
+ChillScript.Position = UDim2.new(0.0462222211, 0, 0.6778391, 0)
+ChillScript.Size = UDim2.new(0, 200, 0, 50)
+ChillScript.Font = Enum.Font.PatrickHand
+ChillScript.Text = "Chill Script"
+ChillScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChillScript.TextSize = 25.000
+ChillScript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/XmHFdTij"))() -- Chill
+end)
+
+CrybabyV1.Name = "Crybaby V1"
+CrybabyV1.Parent = Page1Frame
+CrybabyV1.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+CrybabyV1.BackgroundTransparency = 0.200
+CrybabyV1.Position = UDim2.new(0.524444461, 0, 0.678160906, 0)
+CrybabyV1.Size = UDim2.new(0, 200, 0, 50)
+CrybabyV1.Font = Enum.Font.PatrickHand
+CrybabyV1.Text = "Crybaby V1"
+CrybabyV1.TextColor3 = Color3.fromRGB(0, 0, 0)
+CrybabyV1.TextSize = 25.000
+CrybabyV1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/ruofhweoufuwoefh/Crybaby/main/Crybaby"), true))()
+end)
+
+NetBypass.Name = "Net Bypass"
+NetBypass.Parent = Page1Frame
+NetBypass.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+NetBypass.BackgroundTransparency = 0.200
+NetBypass.Position = UDim2.new(0.524444461, 0, 0.356321841, 0)
+NetBypass.Size = UDim2.new(0, 200, 0, 50)
+NetBypass.Font = Enum.Font.PatrickHand
+NetBypass.Text = "Netbypass"
+NetBypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+NetBypass.TextSize = 25.000
+NetBypass.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/ruofhweoufuwoefh/Netbypass/main/Net%20Bypass"), true))()
+end)
+
+Page1Label.Name = "Page1Label"
+Page1Label.Parent = Page1
+Page1Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1Label.BackgroundTransparency = 1.000
+Page1Label.Position = UDim2.new(0.695652187, 0, -6.5535717, 0)
+Page1Label.Size = UDim2.new(0, 154, 0, 50)
+Page1Label.Font = Enum.Font.RobotoCondensed
+Page1Label.Text = "Page 1"
+Page1Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1Label.TextSize = 30.000
+
+Page2.Name = "Page 2"
+Page2.Parent = ScriptHub
+Page2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Page2.Position = UDim2.new(0.562036514, 0, 0.87149322, 0)
+Page2.Size = UDim2.new(0, 184, 0, 56)
+Page2.Font = Enum.Font.Ubuntu
+Page2.Text = "Page 2"
+Page2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page2.TextSize = 30.000
+Page2.MouseButton1Down:connect(function()
+	Page2Frame.Visible = true
+	Page1Frame.Visible = false
+	Page1Label.Visible = false
+end)
+
+Page2Frame.Name = "Page2Frame"
+Page2Frame.Parent = Page2
+Page2Frame.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Page2Frame.BackgroundTransparency = 0.200
+Page2Frame.Position = UDim2.new(-1.37454605, 0, -4.88816357, 0)
+Page2Frame.Size = UDim2.new(0, 450, 0, 173)
+Page2Frame.Visible = false
+
+Page2TextLabel.Name = "Page2TextLabel"
+Page2TextLabel.Parent = Page2Frame
+Page2TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2TextLabel.BackgroundTransparency = 1.000
+Page2TextLabel.Position = UDim2.new(0.348703206, 0, -0.537572265, 0)
+Page2TextLabel.Size = UDim2.new(0, 153, 0, 50)
+Page2TextLabel.Font = Enum.Font.RobotoCondensed
+Page2TextLabel.Text = "Page 2"
+Page2TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page2TextLabel.TextSize = 30.000
+
+NOTRELEASED.Name = "NOT RELEASED"
+NOTRELEASED.Parent = Page2Frame
+NOTRELEASED.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+NOTRELEASED.BackgroundTransparency = 0.200
+NOTRELEASED.Position = UDim2.new(0.0439999998, 0, 0.673919082, 0)
+NOTRELEASED.Size = UDim2.new(0, 200, 0, 50)
+NOTRELEASED.Font = Enum.Font.PatrickHand
+NOTRELEASED.Text = "??? (COMING SOON)"
+NOTRELEASED.TextColor3 = Color3.fromRGB(0, 0, 0)
+NOTRELEASED.TextSize = 25.000
+
+
+DomainHub.Name = "Domain Hub"
+DomainHub.Parent = Page2Frame
+DomainHub.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+DomainHub.BackgroundTransparency = 0.200
+DomainHub.Position = UDim2.new(0.0439999998, 0, 0.356000006, 0)
+DomainHub.Size = UDim2.new(0, 200, 0, 50)
+DomainHub.Font = Enum.Font.PatrickHand
+DomainHub.Text = "Domain Hub"
+DomainHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DomainHub.TextSize = 25.000
+DomainHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/mainDomain/main/source'),true))()
+end)
+
+BlockGun.Name = "Block Gun"
+BlockGun.Parent = Page2Frame
+BlockGun.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+BlockGun.BackgroundTransparency = 0.200
+BlockGun.Position = UDim2.new(0.0439999998, 0, 0.0340000018, 0)
+BlockGun.Size = UDim2.new(0, 200, 0, 50)
+BlockGun.Font = Enum.Font.PatrickHand
+BlockGun.Text = "Block Gun"
+BlockGun.TextColor3 = Color3.fromRGB(0, 0, 0)
+BlockGun.TextSize = 25.000
+BlockGun.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/ruofhweoufuwoefh/BlockGun/main/Block%20Gun"), true))()
+end)
+
+HeadStand.Name = "Head Stand"
+HeadStand.Parent = Page2Frame
+HeadStand.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+HeadStand.BackgroundTransparency = 0.200
+HeadStand.Position = UDim2.new(0.523999989, 0, 0.0340000018, 0)
+HeadStand.Size = UDim2.new(0, 200, 0, 50)
+HeadStand.Font = Enum.Font.PatrickHand
+HeadStand.Text = "Head Stand"
+HeadStand.TextColor3 = Color3.fromRGB(0, 0, 0)
+HeadStand.TextSize = 25.000
+HeadStand.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/ruofhweoufuwoefh/HeadStand/main/Head%20Stand"), true))()
+end)
+
+Invis.Parent = Page2Frame
+Invis.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Invis.BackgroundTransparency = 0.200
+Invis.Position = UDim2.new(0.523777783, 0, 0.354300559, 0)
+Invis.Size = UDim2.new(0, 200, 0, 50)
+Invis.Font = Enum.Font.PatrickHand
+Invis.Text = "Invis"
+Invis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Invis.TextSize = 25.000
+Invis.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/ruofhweoufuwoefh/HeadStand/main/Head%20Stand"), true))()
+end)
+
+NOTRELEASED_2.Name = "NOT RELEASED"
+NOTRELEASED_2.Parent = Page2Frame
+NOTRELEASED_2.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+NOTRELEASED_2.BackgroundTransparency = 0.200
+NOTRELEASED_2.Position = UDim2.new(0.523999989, 0, 0.677999973, 0)
+NOTRELEASED_2.Size = UDim2.new(0, 200, 0, 50)
+NOTRELEASED_2.Font = Enum.Font.PatrickHand
+NOTRELEASED_2.Text = "??? (COMING SOON)"
+NOTRELEASED_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+NOTRELEASED_2.TextSize = 25.000
+
+
+OpenCloseButton.Name = "Open/CloseButton"
+OpenCloseButton.Parent = GUI
+OpenCloseButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenCloseButton.BackgroundTransparency = 0.200
+OpenCloseButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
+OpenCloseButton.BorderSizePixel = 5
+OpenCloseButton.Position = UDim2.new(0, 0, 0.351973683, 0)
+OpenCloseButton.Size = UDim2.new(0, 200, 0, 50)
+OpenCloseButton.Font = Enum.Font.Highway
+OpenCloseButton.Text = "Open"
+OpenCloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenCloseButton.TextSize = 30.000
+
+-- Scripts:
+
+local function POVAR_fake_script() -- OpenCloseButton.Script 
+	local script = Instance.new('Script', OpenCloseButton)
+
+	wait(1)
+
+	local T = script.Parent
+	local on=false
+	local f=script.Parent.Parent.ScriptHub
+
+	function click()
+
+		if on==false then
+
+			on=true
+
+			f:TweenPosition(UDim2.new(0.473, 0,0.067, 0),"Out","Bounce",1) --Change to the position your gui will be when its open!
+
+			T.Text = "Close"
+
+		else
+
+			on=false
+
+			f:TweenPosition(UDim2.new(-0.473, 0,-0.067, 0),"Out","Quad",1) --Change to the position your gui will be when its closed!
+
+			T.Text = "Open"
+
+		end
+
+	end
+
+
+
+	script.Parent.MouseButton1Click:connect(click)
+end
+coroutine.wrap(POVAR_fake_script)()
